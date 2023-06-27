@@ -1,0 +1,28 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px 16px;
+}
+
+/* Navbar */
+.navbar-container{
+    margin: 16px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+.site-logo{
+    font-size: 24px;
+}
+.navlinks{
+    position: absolute;
+    left: 0;
+    background-color: green;
+    width: 100%;
+    padding: 16px 0px;
+    border-radius: 0px 0px 10px 10px;
+}
